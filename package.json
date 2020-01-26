@@ -1,10 +1,10 @@
 {
-  "name": "protractor-typescript-ts-node-jasmine-expect",
+  "name": "protractor-typescript-ts-node-jasmine-assert",
   "version": "1.0.0",
-  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Jasmine and Expect",
+  "description": "Protractor end-to-end test automation boilerplate, using TypeScript, ts-node, Jasmine and Assert.",
   "scripts": {
-    "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "pretty": "npx prettier --no-config './spec/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './spec/*.ts'",
     "upadte-webderiver": "npx webdriver-manager update --standalone false --gecko",
     "test": "npx protractor ./protractor.conf.js",
     "test-ci": "npx protractor ./protractor-ci.conf.js"
@@ -16,7 +16,8 @@
     "ts-node",
     "boilerplate",
     "ts-node",
-    "example"
+    "example",
+    "assert"
   ],
   "author": "Girma Nigusse",
   "license": "MIT",
