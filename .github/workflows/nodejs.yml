@@ -23,7 +23,7 @@ jobs:
         CI: true
     - name: UPDATE_WEBDRIVER
       run: |
-        npm run upadte-webderiver-ts
+        npm run upadte-webderiver-ci
     - name: TEST
       run: |
         npm run test
